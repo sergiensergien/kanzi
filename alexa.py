@@ -48,6 +48,8 @@ if LANGUAGE == 'de':
   TEMPLATE_FILE = "templates.de.yaml"
 elif LANGUAGE == 'fr':
   TEMPLATE_FILE = "templates.fr.yaml"
+elif LANGUAGE == 'es':
+  TEMPLATE_FILE = "templates.es.yaml"
 else:
   LANGUAGE = 'en'
   TEMPLATE_FILE = "templates.en.yaml"
