@@ -1,0 +1,449 @@
+############################
+##   Response Templates   ##
+############################
+
+config_missing: "No puedo encontrar toda la información de conexion que necesito. Por favor, comprueba el fichero kodi.config"
+
+hosted_config_missing: "No puedo encontrar toda la información de conexión que necesito. Por favor, actualiza tu información en app.media-dash-center.io"
+
+not_logged_in: "Por favor, conecta tu cuenta para utilizar este skill"
+
+error_parsing_results: "Error revisando los resultados"
+
+could_not_find: "No puedo encontrar {{ heard_name }}"
+
+could_not_find_generic: "No puedo encontrar nada"
+
+could_not_find_genre: "No puedo encontrar nada de musica de tipo {{ genre_name }}"
+
+could_not_find_artist: "No puedo encontrar musica de {{ artist_name }}"
+
+could_not_find_genre_artist: "No puedo encontrar musica de tipo {{ genre_name }} de {{ artist_name }}"
+
+could_not_find_album: "No puedo encontrar el album {{ album_name }}"
+
+could_not_find_album_artist: "No puedo encontrar el album {{ album_name }} de {{ artist }}"
+
+could_not_find_song: "No puedo encontrar la canción {{ song_name }}"
+
+could_not_find_song_artist: "No puedo encontrar la canción {{ song_name }} de {{ artist }}"
+
+could_not_find_song_album: "No puedo encontrar la canción {{ song_name }} en el album {{ album_name }}"
+
+could_not_find_multi: "No puedo encontrar {{ heard_name }} de {{ artist }}"
+
+could_not_find_playlist: "No puedo encontrar la lista de reproducción llamada {{ heard_name }}"
+
+could_not_find_addon: "No puedo encontrar un accesorio llamado {{ heard_addon }}"
+
+could_not_find_movie: "No puedo encontrar una pelicula llamada {{ heard_movie }}"
+
+could_not_find_trailer: "No puedo encontrar un trailer para {{ heard_name }}"
+
+could_not_find_show: "No puedo encontrar una serie llamada {{ heard_show }}"
+
+could_not_find_episode_show: "No puedo encontrar la temporada {{ season }} episodio {{ episode }} de {{ show_name }}"
+
+could_not_find_musicvideo: "No puedo encontrar un videoclip llamado {{ heard_musicvideo }}"
+
+could_not_find_musicvideo_artist: "No puedo encontrar un videoclip llamado {{ heard_musicvideo }} de {{ heard_artist }}"
+
+could_not_find_musicvideos_genre: "No puedo encontrar ningun videoclip de tipo {{ genre_name }}"
+
+could_not_find_musicvideos_artist: "No puedo encontar nungun videoclip de {{ artist_name }}"
+
+could_not_find_musicvideos_genre_artist: "Could not find any {{ genre_name }} music videos by {{ artist_name }}"
+
+no_recommendations: "Lo siento, no te puedo recomendar nada"
+
+recommend_movie: "Que te parece la película {{ movie_name }}?"
+
+recommend_show: "Que te parece la serie {{ show_name }}?"
+
+recommend_episode: "Que te parece el episodio {{ episode }} de la temporada {{ season }} de {{ show_name }}?"
+
+recommend_musicvideo: "Que te parece el videoclip {{ musicvideo_name }} de {{ artist_name }}?"
+
+recommend_artist: "Que tal música de {{ artist_name }}?"
+
+recommend_album: "Que tal el album {{ album_name }} de {{ artist_name }}?"
+
+recommend_song: "Que tal la canción {{ song_name }} de {{ artist_name }}?"
+
+recommend_songs_recent: "Que tal algo de las últimas novedades?"
+
+searching: "Buscando {{ heard_name }}"
+
+opening: "Abriendo {{ heard_name }}"
+
+playing: "Reproduciendo {{ heard_name }}"
+
+playing_genre: "Reporduciendo música de tipo {{ genre_name }}"
+
+playing_genre_artist: "Reproduciendo musica de tipo {{ genre_name }} interpretada por {{ artist_name }}"
+
+playing_album: "Reproduciendo el album {{ album_name }}"
+
+playing_album_artist: "Reproduciendo el album {{ album_name }} de {{ artist }}"
+
+playing_song: "Reproduciendo la canción {{ song_name }}"
+
+playing_song_artist: "Reproduciendo la canción {{ song_name }} de {{ artist }}"
+
+playing_song_album: "Reproduciendo la canción {{ song_name }} del album {{ album_name }}"
+
+playing_playlist_audio: "{{ action }} la lista de reproducción {{ playlist_name }}"
+
+playing_playlist_video: "{{ action }} la lista de videos {{ playlist_name }}"
+
+playing_party: "Comenzando modo aleatorio"
+
+playing_genre_movie: "Reproduciendo la pelicula de {{ genre_name }} {{ movie_name }}"
+
+playing_action: "{{ action }} {{ movie_name }}"
+
+playing_trailer: "Reproduciendo el trailer de {{ heard_name }}"
+
+playing_episode_number: "Reproduciendo el episodio {{ episode }} de la temporada {{ season }} de {{ show_name }}"
+
+playing_action_episode_number: "{{ action }} el episodio {{ episode }} de la temporada {{ season }} de {{ show_name }}"
+
+playing_musicvideo: "Reproduciendo el videoclip {{ musicvideo_name }} de {{ artist_name }}"
+
+playing_empty: "Reproduciendo"
+
+resuming_empty: "Reanudando"
+
+shuffling: "Reproduciendo en modo aleatorio {{ heard_name }}"
+
+shuffling_empty: "Reproduciendo en modo aleatorio"
+
+shuffling_playlist_video: "Reproduciendo en modo aleatorio la lista de videos {{ playlist_name }}"
+
+shuffling_playlist_audio: "Reproduciendo en modo aleatoria la lista de canciones {{ playlist_name }}"
+
+shuffling_playlist: "Reproduciendo en modo aleatorio la lista {{ playlist_name }}"
+
+shuffling_album: "Reproduciendo en modo aleatorio el album {{ album_name }}"
+
+shuffling_album_artist: "Reproduciendo en modo aleatorio el album {{ album_name }} de {{ artist }}"
+
+shuffle_on: "Activado el modo aleatorio"
+
+shuffle_off: "Desactivado el modo aleatorio"
+
+loop_one: "Modo cíclico una sóla vez"
+
+loop_all: "Activado el modo cíclico"
+
+loop_off: "Desactivado el modo cíclico"
+
+no_new_episodes_show: "No hay nuevos episodios para {{ show_name }}"
+
+no_albums_artist: "No tienes ningún album de {{ artist }}"
+
+no_new_albums: "No hay ningún nuevo album para escuchar"
+
+no_new_movies: "No hay ninguna película nueva para ver"
+
+no_new_shows: "No hay ninguna serie nueva para ver"
+
+no_recent_songs: "No se ha encontrado ninguna canción nueva"
+
+no_unseen_show: "No hay series sin ver por el momento"
+
+one_unseen_show: "Hay una serie sin ver, se llama {{ show_name }}"
+
+multiple_unseen_show: "Hay {{ num }} episodios sin ver de {{ show_name }}"
+
+one_new_episode: "Hay un nuevo episodio de {{ show_name }}"
+
+two_new_episodes: "Hay dos nuevos episodios de {{ show_name }}"
+
+multiple_new_episodes: "Hay {{ count }} nuevoes episodios de {{ show_name }}"
+
+you_have_list: "Tienes {{ items }} elementos"
+
+you_have_episode_list: "Hay nuevos episodios de {{ items }}"
+
+volume_set: "Volumen ajustado a {{ num }}"
+
+help: "Me puedes preguntar si hay alguna serie nueva, reproducir una película, una serie o un intérprete, controlar la reproducción y mucho más. Por ejemplo, {{ example }}. Te he enviado más ejemplos a tu App de Alexa."
+
+help_short: "Que quieres hacer? Prueba algo como esto, {{ example }}."
+
+help_text: "Kanzi te permite controlar totálmente uno o varios reproductores Kodi con tu voz. Estos son algunos ejemplos de las cosas que puedes decir:\n
+\xa0\n
+{{ examples }}
+\xa0\n
+Para ver la lista completa de las órdenes disponibles, por favor mira el fichero README en Github (https://github.com/m0ngr31/kanzi/README.md)."
+
+help_play: "Por favor, especifíca el tipo de medio en tu orden de reproducción, como, por ejemplo, reproduce la película Los Vengadores."
+
+are_you_sure: "Estás seguro?"
+
+are_you_sure_shutdown: "Estas seguro que quieres que apague el equipo?"
+
+are_you_sure_reboot: "Estás seguro que quieres que reinicie el equipo?"
+
+are_you_sure_hibernate: "Estás seguro que quieres que ponga el equipo en hibernación?"
+
+are_you_sure_suspend: "Estás seguro que quieres que ponga el equipo en suspensión?"
+
+welcome: "Bienvenido a Kanzi."
+
+nothing_currently_playing: "Kodi no está reproduciendo música en este momento."
+
+
+############################
+##  Card Title Templates  ##
+############################
+
+card_config_missing: "Configuración no válida"
+
+looking_for_show: "Buscando nuevos episodios de {{ heard_show }}"
+
+current_playing_item: "Actualmente reproduciendo elemento"
+
+time_left_playing: "Tiempo restante del elemento que se está reproduciendo"
+
+play_pause: "Reproducir/Pausa"
+
+stopping: "Parando la reproducción"
+
+step_forward: "Avanzando"
+
+step_backward: "Retrocediendo"
+
+big_step_forward: "Saltando hacia delanta"
+
+big_step_backward: "Saltando hacia atrás"
+
+listen_artist: "Reproduciendo música de {{ heard_artist }}"
+
+listen_artist_genre: "Reproduciendo música de tipo {{ heard_genre }} interpretada por {{ heard_artist }}"
+
+newly_added_shows: "Series recién añadidas"
+
+newly_added_albums: "Albums recién añadidos"
+
+newly_added_movies: "Películas recién añadidas"
+
+newly_added_movies_genre: "Películas de tipo {{ genre }} recién añadidas"
+
+last_unwatched: "Reproduciendo el último episodio que no has visto de la última serie que has visto"
+
+update_audio: "Actualizando la librería de audio"
+
+update_video: "Actualizando la librería de video"
+
+clean_audio: "Limpiando la librería de audio"
+
+clean_video: "Limpiando la librería de video"
+
+ejecting_media: "Explusando soporte"
+
+quitting: "Lo dejo estar"
+
+suspending_system: "Suspendiendo el sistema"
+
+shutting_down: "Apagando el sistema"
+
+rebooting: "Reinicienado el sistema"
+
+hibernating: "Hibernando el sistema"
+
+player_zoom_normal: "Reproductor en modo de zoom normal"
+
+player_zoom_out: "Reproductor en modo de alejanmiento"
+
+player_zoom_out_right: "Reproductor en modo de alejamiento y movido a la derecha"
+
+player_zoom_out_left: "Reproductor en modo de alejamiento y movido a la izquierda"
+
+player_zoom_out_down: "Reproductor en modo de alejamiento y movido hacia abajo"
+
+player_zoom_out_up: "Reproductor en modo de alejamiento y movido hacia arriba"
+
+player_zoom_in: "Reproductor en modo de aumento"
+
+player_zoom_in_right: "Reproductor en modo de aumento y movido a la derecha"
+
+player_zoom_in_left: "Reproductor en modo de aumento y movido a la izquierda"
+
+player_zoom_in_down: "Reproductor en modo de aumento y movido hacia abajo"
+
+player_zoom_in_up: "Reproductor en modo de aumento y movido hacia arriba"
+
+player_zoom_hold: "Reproductor en modo de zoom a medida"
+
+player_rotate_cc: "Reprodutor rotado en sentido contrario a las agujas del reloj"
+
+player_rotate: "Reproductor rotado en el sentio de las agujas del reloj"
+
+player_move_right: "Reproductor movido a la derecha"
+
+player_move_left: "Reproductor movido a la izquierda"
+
+player_move_down: "Reproductor movido hacia abajo"
+
+player_move_up: "Reproductor movido hacia arriba"
+
+shuffle_disable: "Desactivando modo aleatorio"
+
+shuffle_enable: "Activando modo aleatorio"
+
+loop_disable: "Desactivando modo de repetición"
+
+loop_enable: "Activando modo de repetición"
+
+audio_stream_next: "Cambiando a la siguiente pista de audio"
+
+audio_stream_previous: "Cambiando a la anterior pista de audio"
+
+subtitles_next: "Cambiando a los siguientes subtítulos"
+
+subtitles_previous: "Cambiando a los anteriores subtítulos"
+
+subtitles_disable: "Desactivando subtítulos"
+
+subtitles_enable: "Activando subtítulos"
+
+subtitles_download: "Downloading subtitles"
+
+toggle_audio_passthrough: "Cambiando el modo de paso a través de audio"
+
+adjusting_volume: "Ajustando el volúmen"
+
+volume_down: "Bajando el volúmen"
+
+volume_up: "Subiendo el volúmen"
+
+mute_unmute: "Cambiando el modo de silencio"
+
+toggle_fullscreen: "Activando modo a pantalla completa"
+
+toggle_stereoscopic_mode: "Activando modo estereoscópico"
+
+playing_previous: "Reproduciendo el elemento anterior"
+
+playing_next: "Reproduciendo el siguiente elmento"
+
+playing_same: "Volviendo a reproducir el elemento actual"
+
+playing_recent_songs: "Reproduciendo canciones recién añadidas"
+
+playing_random_movie: "Reproduciendo una película al azar"
+
+playing_random_movie_genre: "Reproducicendo una película al azar de tipo {{ genre }}"
+
+playing_movie: "Reproduciendo una película"
+
+playing_movie_trailer: "Reproduciendo un trailer de una película"
+
+shuffling_episodes: "Reproduciendo episodios al azar de {{ heard_show }}"
+
+playing_an_episode: "Reproduciendo un episodio de {{ heard_show }}"
+
+playing_random_episode: "Reproduciendo un episodio al azar de {{ heard_show }}"
+
+playing_random_show: "Reproduciendo una serie al azar"
+
+playing_random_show_genre: "Reproducioendo una serie al azar de tipo {{ genre }}"
+
+playing_next_unwatched_episode: "Reproduciendo el siguiente episodio que no has visto de {{ heard_show }}"
+
+playing_newest_episode: "Reproduciendo el episodio más reciente de {{ heard_show }}"
+
+playing_musicvideo_card: "Reproduciendo un videoclip"
+
+shuffling_musicvideos: "Reproduciendo videoclips al azar"
+
+shuffling_musicvideos_genre: "Reproduciendo videoclips al azar de tipo {{ genre }}"
+
+shuffling_musicvideos_artist: "Reproduciendo videoclips al azar de {{ artist }}"
+
+shuffling_musicvideos_genre_artist: "Reproduciendo videoclips al azar de tipo {{ genre }} interpretados por {{ artist }}"
+
+playing_random_musicvideo: "Reproduciento un videoclip al azar"
+
+playing_random_musicvideo_genre: "Reproduciendo un videoclip al azar de tipo {{ genre }}"
+B
+playing_random_musicvideo_artist: "Reproduciendo un videoclip al azar de {{ artist }}"
+
+playing_random_musicvideo_genre_artist: "Reproduciendo un videoclip al azar de tipo {{ genre }} interpretado por {{ artist }}"
+
+playing_album_card: "Reproduciendo album"
+
+shuffling_album_card: "Reproduciendo al azar album"
+
+playing_latest_album_card: "Reproduciendo el último album de {{ heard_artist }}"
+
+shuffling_latest_album_card: "Reproduciendo al azar el último album de {{ heard_artist }}"
+
+playing_song_card: "Reproduciendo canción"
+
+playing_album_or_song: "Reproduciendo album o canción"
+
+action_audio_playlist: "{{ action }} lista de audio"
+
+action_video_playlist: "{{ action }} lista de video"
+
+party_mode: "Modo Fiest"
+
+albums_by: "Albums de {{ heard_artist }}"
+
+open_addon: "Abriendo complemento"
+
+search: "Buscar"
+
+help_card: "Ayuda"
+
+playback_stopped: "Reproducción detenida"
+
+unknown_playing: "La lista de reproducción actual es desconocida"
+
+nothing_playing: "Ahora no se está reproduciendo nada"
+
+remaining_close: "Casi se ha acabado"
+
+remaining_mins: "Quedan {{ minutes }} minutos restantes"
+
+remaining_min: "Queda alrededor de un minuto"
+
+remaining_time: ", y acabará a las {{ end_time }}"
+
+
+############################
+##   General Templates    ##
+############################
+
+okay: "De acuerdo"
+
+short_confirm: " "
+
+and_more: ", y más"
+
+and_more_similar: ", y más similares"
+
+and: ", y "
+
+by: "de"
+
+no_more_songs: "No hay más canciones en cola"
+
+no_songs_history: "No hay más canciones en tu historial"
+
+no_current_song: "No se está reproduciendo ninguna canción"
+
+current_show_is: "La serie que se está reproduciendo es"
+
+season: "temporada"
+
+episode: "episodio"
+
+current_song_is: "La canción que se está reproduciendo es"
+
+on_the_album: "del album"
+
+current_movie_is: "La película que se está reproduciendo es"

@@ -1,0 +1,279 @@
+# A list of utterance variations written in a shorthand syntax
+
+# Syntax and information
+# http://www.makermusings.com/2015/07/21/defining-utterances-for-the-alexa-skills-kit/
+
+# Tool to expand the single line into the usable list of utterances
+# http://www.makermusings.com/amazon-echo-utterance-expander/
+
+# Utterances that include a reference to a Slot are more specific than
+# others because, in testing, Alexa appears to not fuzzy match these
+# as well as those that have no slot references.
+
+Home (/ve/retorna/vuelve/navega) (/a/al) inicio
+Back (/ve/vuelve/navega/tira) atras 
+Up (/ve/navega/tira/sube) arriba
+Up sube
+Down (/ve/navega/tira/baja) abajo
+Down baja
+Right (/ve/navega/tira) (/a/a la) derecha 
+Left (/ve/navega/tira) (/a/a la) izquierda
+PageUp (/ve/navega/tira) página (arriba/atrás/anterior)
+PageDown (/ve/navega/tira) página (abajo/adelante/siguiente)
+PageDown (/enseña/muestra) más
+Select selecciona
+Menu (/abre/enseña/muestra) menu
+Menu menu (contexto/contextual)
+Info (/abre/enseña/muestra) (/la) (/ventana/ventanita/diálogo de) (info/información)
+
+ViewMovies (abre/ve a/muestra/enseña/navega a) (/las) (pelis/películas)
+ViewMovies (muestra/busca/encuentra) (pelis/películas) de {MovieGenre}
+ViewShows (abre/ve a/muestra/enseña/navega a) series (/de televisión)
+ViewShows (muestra/busca/encuentra) series (/de televisión) de {ShowGenre}
+ViewMusic (abre/ve a/muestra/enseña/navega a) música
+ViewMusic (abre/ve a/muestra/enseña/navega a/busca/encuentra) música de (/tipo/género/estilo) {MusicGenre}
+ViewArtists (abre/ve a/muestra/enseña/navega a) (artistas/músicos/grupos/cantantes/bandas/intérpretes)
+ViewAlbums (abre/ve a/muestra/enseña/navega a) (albums/discos) (/de música)
+ViewMusicVideos (abre/ve a/muestra/enseña/navega a) (videos/videoclips) (/de música/musicales)
+ViewMusicVideos (muestra/busca/encuentra)  (videos/videoclips) (/de música/musicales) {MusicVideoGenre} music videos
+ViewAudioPlaylist (abre/ve a/muestra/enseña/navega a) (/la) lista (de canciones/de música/musical/de audio/de sonido) (/llamada/con nombre/de nombre) {AudioPlaylist}
+ViewAudioPlaylistRecent (abre/ve a/muestra/enseña/navega a) (albums/discos/canciones/música/audio) (recientes/nuevos/nuevas)
+ViewAudioPlaylistRecent (abre/ve a/muestra/enseña/navega a) (los últimos/los nuevos/los más nuevos/las novedades de) (albums/discos/canciones/música/audio)
+ViewVideoPlaylist (abre/ve a/muestra/enseña/navega a) (/la) lista (de (películas/pelis/videos/series)) (/llamada/con nombre/de nombre) {VideoPlaylist}
+ViewMoviePlaylistRecent (abre/ve a/muestra/enseña/navega a) (películas/pelis/videos/series) (recientes/nuevos/nuevas)
+ViewMoviePlaylistRecent (abre/ve a/muestra/enseña/navega a) (los últimos/los nuevos/los más nuevos/las novedades de) (películas/pelis/videos/series)
+ViewEpisodePlaylistRecent (abre/ve a/muestra/enseña/navega a) series (/de televisión) (recientes/nuevas)
+ViewEpisodePlaylistRecent (abre/ve a/muestra/enseña/navega a) (capítulos/episodios) (/de televisión) (recientes/nuevos)
+ViewEpisodePlaylistRecent (abre/ve a/muestra/enseña/navega a) (/las) últimas series (/de televisión)
+ViewEpisodePlaylistRecent (abre/ve a/muestra/enseña/navega a) (/los) últimos (capítulos/episodios) (/de televisión)
+ViewMusicVideoPlaylistRecent (abre/ve a/muestra/enseña/navega a) (videoclips/videos) (/de música/musicales) (recientes/nuevos)
+ViewMusicVideoPlaylistRecent (abre/ve a/muestra/enseña/navega a) (los últimos/los nuevos/los más nuevos/las novedades de) (videoclips/videos) (/de música/musicales)
+ViewPlaylist (abre/ve a/muestra/enseña/navega a) (/la) lista (/llamada/de nombre/con nombre) {AudioPlaylist}
+ViewPlaylist (abre/ve a/muestra/enseña/navega a) (/la) lista (/llamada/de nombre/con nombre) {VideoPlaylist}
+
+Fullscreen (/cambia a) (/modo/modo de)pantalla completa
+StereoscopicMode (/cambia a) modo (stereoscópico/tres d.)
+
+AudioPassthrough (/cambia) modo de audio (/digital)
+Mute (/pon/quita/activa/desactiva) (/el/el modo/el modo de) silencio
+VolumeUp (sube/aumenta/incrementa) (/el) (volumen/sonido)
+VolumeDown (baja/reduce/decrementa) (/el) (volumen/sonido)
+VolumeSet (/pon/establece/fija) (/el) (volumen/sonido) (/a) {Volume}
+VolumeSetPct (/pon/establece/fija) (/el) (volumen/sonido) (/a) {Volume} por ciento
+
+SubtitlesOn (pon/activa/enciende) (/los) subtítulos
+SubtitlesOff (quita/desactiva/apaga) (/los) subtítulos 
+SubtitlesNext (/pon los) siguientes subtítulos 
+SubtitlesNext (/pon el) siguiente (/lenguaje de/idioma de) (/los) subtítulos
+SubtitlesNext cambia (/el lenguaje de/el idioma de) (/los) subtítulos
+SubtitlesPrevious (/pon el) anterior (/lenguaje de/idioma de) (/los) subtítulos
+SubtitlesPrevious (/pon los) subtítulos (anteriores/de antes)
+SubtitlesDownload (descarga/consigue) (/los) subtítulos
+
+AudioStreamNext (pon/pon el/cambia al) siguiente (audio/lenguaje/pista/canal/idioma) (/de audio)
+AudioStreamNext (pon/pon el/cambia al) (audio/lenguaje/pista/canal/idioma) siguiente (/de audio)
+AudioStreamPrevious (pon/pon el/cambia al) anterior (audio/lenguaje/pista/canal/idioma) (/de audio)
+AudioStreamPrevious (pon/pon el/cambia al) (audio/lenguaje/pista/canal/idioma) anterior (/de audio)
+
+PlayerMoveUp (mover/desplazar) (/hacia) arriba
+PlayerMoveDown (mover/desplazar) (/hacia) abajo
+PlayerMoveLeft (mover/desplazar) (/hacia/hacia la/a la) izquierda
+PlayerMoveRight (mover/desplazar) (/hacia/hacia la/a la) izquierda
+PlayerRotateClockwise rotar (/noventa grados/en el sentido del reloj/en el sentido de las aguajas del reloj)
+PlayerRotateCounterClockwise rotar (/al revés/en sentido contrario del reloj/en el sentido contrario de las agujas del reloj)
+PlayerZoomHold (mantener/fijar) (/el) zoom (/ahí/justo ahí)
+PlayerZoomIn (amplía/aumenta/más/haz) (/el) zoom
+PlayerZoomInMoveUp (amplía/aumenta/más/haz) (/el) zoom y (/desplaza/mueve) (/hacia) arriba
+PlayerZoomInMoveDown (amplía/aumenta/más/haz) (/el) zoom y (/desplaza/mueve) (/hacia) abajo
+PlayerZoomInMoveLeft (amplía/aumenta/más/haz) (/el) zoom y (/desplaza/mueve) (/hacia) (/la) izquierda
+PlayerZoomInMoveRight (amplía/aumenta/más/haz) (/el) zoom y (/desplaza/mueve) (/hacia) (/la) derecha
+PlayerZoomOut (reduce/disminuye/menos) (/el) zoom
+PlayerZoomOutMoveUp (reduce/disminuye/menos) (/el) zoom y (/desplaza/mueve) (/hacia) arriba
+PlayerZoomOutMoveDown (reduce/disminuye/menos) (/el) zoom y (/desplaza/mueve) (/hacia) abajo
+PlayerZoomOutMoveLeft (reduce/disminuye/menos) (/el) zoom y (/desplaza/mueve) (/hacia) (/la) izquierda
+PlayerZoomOutMoveRight  (reduce/disminuye/menos) (/el) zoom y (/desplaza/mueve) (/hacia) (/la) derecha
+PlayerZoomReset (quita/elimina/desactiva/desconecta) (/el) zoom
+
+CleanVideo limpia (/la) librería (/de video/de pelis/de películas)
+UpdateVideo (actualiza/renueva/verifica) (/la) librería (/de video/de pelis/de películas)
+
+CleanAudio limpia (/la) librería (de música/de audio/de sonido)
+UpdateAudio (actualiza/renueva/verifica) (/la) librería (de música/de audio/de sonido)
+
+PlayMedia (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (/la peli/la película) {Movie}
+ShuffleMedia (pon/reproduce) (al azar/aleatoriamente/de forma aleatoria) (/la serie) {Show}
+
+WhatAlbums que (albums/discos/música/canciones/temas) (tengo/tienes/tenemos) de {Artist}
+
+ListenToAudio (/quiero/queremos/deseo/deseamos) escuchar (/a) {Artist}
+ListenToGenre (/quiero/queremos/deseo/deseamos) escuchar (/canciones/música/albums/discos/temas) (/de/de estilo/de tipo/de género) {MusicGenre}
+ListenToGenre (reproduce/pon/escucha) (canciones/música/albums/discos/temas) (/de/de estilo/de tipo/de género) {MusicGenre}
+ListenToArtist (/quiero/queremos/deseo/deseamos) escuchar (/canciones/música/albums/discos/temas) (/de/de estilo/de tipo/de género){MusicGenre} (de/interpretados por/interpretadas por/tocados por/todadas por) {Artist}
+ListenToArtist (reproduce/pon/escucha) (canciones/música/albums/discos/temas) (/de/de estilo/de tipo/de género){MusicGenre} (de/interpretados por/interpretadas por/tocados por/todadas por) {Artist}
+ListenToLatestAlbum (reproduce/pon/escucha) (/el) (último/nuevo) (album/disco/tema) de {Artist}
+ListenToAlbum (reproduce/pon/escucha) (/el) (album/disco) (/que se llama/llamado) {Album}
+ListenToAlbum (reproduce/pon/escucha) (/el) (album/disco) (/que se llama/llamado) {Album} (de/interpretado por/tocado por) {Artist}
+ListenToSong (reproduce/pon/escucha) (/el/la) (canción/tema) (/que se llama/llamado) {Song}
+ListenToSong (reproduce/pon/escucha) (/el/la) (canción/tema) (/que se llama/llamado) {Song} (de/interpretado por/tocado por) {Artist}
+ListenToSong (reproduce/pon/escucha) (/el/la) (canción/tema) (/que se llama/llamado) {Song} (/del) (album/disco) (/llamado/de nombre) {Album}
+ListenToAlbumOrSong  (reproduce/pon/escucha) (/el/la) (canción/tema) (/que se llama/llamado) {Song} (de/interpretado por/tocado por) {Artist}
+ListenToAudioPlaylist (reproduce/pon/escucha) (/la) lista de (audio/música/canciones/reproducción) (/llamada/que se llama/de nombre) {AudioPlaylist}
+ListenToAudioPlaylistRecent (reproduce/pon/escucha) canciones (nuevas/recientes)
+ListenToAudioPlaylistRecent (reproduce/pon/escucha) (albums/discos/temas) (nuevos/recientes)
+ListenToAudioPlaylistRecent (reproduce/pon/escucha) música (nueva/reciente)
+ListenToAudioPlaylistRecent (reproduce/pon/escucha) nuevas canciones
+ListenToAudioPlaylistRecent (reproduce/pon/escucha) nuevos (albums/discos/temas)
+
+WatchVideo (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (/la peli/la película) {Movie}
+WatchRandomMovie (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) una (/peli/película)
+WatchRandomMovie (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) una (/peli/película) (de/de género/detipo) {MovieGenre}
+WatchMovieTrailer (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (/el) trailer (/de/de la peli/de la película {Movie})
+WatchEpisode (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (/el) (episodio/capítulo) {Episode} (/de la) temporada {Season} de (/la serie) {Show}
+WatchRandomEpisode (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) un (episodio/capítulo) (/al azar/aleatorio/cualquiera) de (/la serie) {Show}
+WatchRandomEpisode (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) qualquier (episodio/capítulo) de (/la serie) {Show}
+WatchRandomEpisode (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) un (episodio/capítulo) (/al azar/aleatorio/cualquiera) (/de qualquier serie/de una serie cualquiera)
+WatchRandomShow (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) una serie (/de televisión) (/al azar/aleatorio/cualquiera) (de/de género/detipo) {ShowGenre}
+WatchNextEpisode (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (/el) (siguiente/nuevo/último) (episodio/capítulo) de (/la serie) {Show}
+WatchNextEpisode (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (/el) (episodio/capítulo) (siguiente/nuevo) de (/la serie) {Show}
+WatchLastShow (continua/sigue) (/poniendo/reproduciendo/viendo) (/la) (/última) serie
+WatchLastShow (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (/la) última serie
+WatchLatestEpisode (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) el (último/siguiente) (episodio/capítulo) de (/la serie) {Show}
+WatchMusicVideo (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (/el) (videoclip/video) (/musical/de música) (/llamado/de nombre/que se llama) {MusicVideo} (/de {Artist})
+WatchRandomMusicVideo (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (un/qualquier) (videoclip/video) (musical/de música) (/aleatorio/al azar/qualquiera)
+WatchRandomMusicVideo (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (un/qualquier) (videoclip/video) (musical/de música) (/aleatorio/al azar/qualquiera) (de/de tipo/de estilo/de género) {MusicVideoGenre}
+WatchRandomMusicVideo (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (un/qualquier) (videoclip/video) (musical/de música) (/aleatorio/al azar/qualquiera) (de/interpretado por/tocado por) {Artist})
+WatchRandomMusicVideo (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (un/qualquier) (videoclip/video) (musical/de música) (/aleatorio/al azar/qualquiera) (de/de tipo/de estilo/de género) {MusicVideoGenre} (de/interpretado por/tocado por) {Artist}
+WatchVideoPlaylist (pon/reproduce/voy a ver/vamos a ver/quiero ver/queremos ver) (/la) lista (de (películas/pelis/videos/series)) (/llamada/que se llama/de nombre) {VideoPlaylist}
+
+ShuffleShow (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) ver)) (/los/todos) (episodios/capítulos) de {Show} (al azar/aleatóriamente/en cualquier orden/en orden cualquiera)
+ShuffleShow (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) ver)) (al azar/aleatóriamente/en cualquier orden/en orden cualquiera) (/los/todos) (episodios/capítulos) de {Show}
+ShuffleMusicVideos (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) ver)) (/los/todos) (videos/videoclips) (/de música/musicales) (de/interpretado por/tocado por) {Artist}) (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera)
+ShuffleMusicVideos (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) ver)) (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera) (/los/todos) (videos/videoclips) (/de música/musicales) (de/interpretado por/tocado por) {Artist})
+ShuffleLatestAlbum (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir)) (/el) (album/disco/C.D.) nuevo (/(de/interpretado por/tocado por) {Artist}) (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera)
+ShuffleLatestAlbum (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir)) (/el) nuevo (album/disco/C.D.) (/(de/interpretados por/tocados por) {Artist}) (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera)
+ShuffleLatestAlbum (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir)) (/el) (album/disco/C.D.) nuevo (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera) (/(de/interpretado por/tocado por) {Artist}) 
+ShuffleLatestAlbum (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir)) (/el) nuevo (album/disco/C.D.) (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera) (/(de/interpretado por/tocado por) {Artist}) 
+ShuffleLatestAlbum (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir)) (albums/discos/C.D.) nuevos (/(de/interpretados por/tocados por) {Artist}) (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera)
+ShuffleLatestAlbum (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir)) nuevos (albums/discos/C.D.) (/(de/interpretados por/tocados por) {Artist}) (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera)
+ShuffleLatestAlbum (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir)) (albums/discos/C.D.) nuevos (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera) (/(de/interpretados por/tocados por) {Artist}) 
+ShuffleLatestAlbum (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir)) (/(/todos) los) nuevos (albums/discos/C.D.) (/al azar/aleatóriamente/en cualquier orden/en orden cualquiera) (/(de/interpretados por/tocados por) {Artist}) 
+ShuffleAlbum shuffle (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir))  (/el) (album/disco/C.D.) {Album}
+ShuffleAlbum shuffle (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir))  (/el) (album/disco/C.D.) {Album} (/(de/interpretado por/tocado por) {Artist})
+ShuffleAudioPlaylist (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) (escuchar/oir)) (/la) lista de (audio/música/canciones/reproducción) (/llamada/que se llama/de nombre) {AudioPlaylist}
+ShuffleVideoPlaylist (pon/reproduce/((voy a/vamos a/quiero/queremos/deseo/deseamos) ver))  (/la) lista (de (películas/pelis/videos/series)) (/llamada/con nombre/de nombre) {VideoPlaylist}
+ShufflePlaylist  (pon/reproduce) (/la) lista (/llamada/con nombre/de nombre) {AudioPlaylist}
+ShufflePlaylist  (pon/reproduce) (/la) lista (/llamada/con nombre/de nombre) {VideoPlaylist}
+
+RecommendVideo (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (algo/alguna cosa/cualquier cosa) (que/para) ver
+RecommendAudio (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (algo/alguna cosa/cualquier cosa) (que/para) (oir/escuchar)
+RecommendMovie (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/una/alguna) (peli/película) (/(que/para) (ver/poner))
+RecommendMovie (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/una/alguna) (peli/película) (de (/estilo/tipo/género)) {MovieGenre} (/(que/para) (ver/poner))
+RecommendMovie (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unas/algunas/) (pelis/películas) (/(que/para) (ver/poner))
+RecommendMovie (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unas/algunas/) (pelis/películas) (de (/estilo/tipo/género)) {MovieGenre}) (/(que/para) (ver/poner))
+RecommendShow (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/una/alguna) serie (/de televisión) (/(que/para) (ver/poner))
+RecommendShow (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/una/alguna) serie (/de televisión) (de (/estilo/tipo/género)) {ShowGenre} (/(que/para) (ver/poner))
+RecommendShow (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unas/algunas) series (/de televisión) (/(que/para) (ver/poner))
+RecommendShow (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unas/algunas) series (/de televisión) (de (/estilo/tipo/género)) {ShowGenre} (/(que/para) (ver/poner))
+RecommendEpisode (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/un/algún) (episodio/capítulo) (/(que/para) (ver/poner)) 
+RecommendEpisode (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/un/algún) (episodio/capítulo) (de (/estilo/tipo/género)) {ShowGenre} (/(que/para) (ver/poner))
+RecommendEpisode (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unos/algunos) (episodios/capítulos) (/(que/para) (ver/poner)) 
+RecommendEpisode (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unos/algunos) (episodios/capítulos) (de (/estilo/tipo/género)) {ShowGenre} (/(que/para) (ver/poner))
+RecommendMusicVideo (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/un/algún) (video/videoclip) (/de música/musical) (/(que/para) (ver/oir/escuchar/poner))
+RecommendMusicVideo (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/un/algún) (video/videoclip) (/de música/musical) (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (ver/oir/escuchar/poner))
+RecommendMusicVideo (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unos/algunos) (video/videoclip) (/de música/musical) (/(que/para) (ver/oir/escuchar/poner))
+RecommendMusicVideo (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unos/algunos) (videos/videoclips) (/de música/musical) (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (ver/oir/escuchar/poner))
+RecommendArtist (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/un/algún) (músico/intérprete/artista/grupo) (/(que/para) (ver/oir/escuchar/poner))
+RecommendArtist (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/una/alguna) (intérprete/artista/banda) (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (ver/oir/escuchar/poner))
+RecommendArtist (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/un/algún) (músico/intérprete/artista/grupo) (/que/para) (/(que/para) (ver/oir/escuchar/poner))
+RecommendArtist (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/una/alguna) (intérprete/artista/banda) (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (ver/oir/escuchar/poner))
+RecommendArtist (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unos/algunos) (músicos/intérpretes/artistas/grupos) (/(que/para) (ver/oir/escuchar/poner))
+RecommendArtist (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unas/algunas) (intérpretes/artistas/bandas) (/(que/para) (ver/oir/escuchar/poner))
+RecommendArtist (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unos/algunos) (músicos/intérpretes/artistas/grupos) (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (ver/oir/escuchar/poner))
+RecommendArtist (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unas/algunas) (intérpretes/artistas/bandas) (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (ver/oir/escuchar/poner))
+RecommendAlbum (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unos/algunos) (albums/discos/C.D.) (/(que/para) (ver/oir/escuchar/poner))
+RecommendAlbum (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/un/algún) (album/disco/C.D.) (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (oir/escuchar/poner))
+RecommendAlbum (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/unos/algunos) (albums/discos/C.D.) (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (oir/escuchar/poner))
+RecommendSong (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/un/algún) tema (/(que/para) (oir/escuchar/poner))
+RecommendSong (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/una/alguna) canción (/(que/para) (oir/escuchar/poner))
+RecommendSong (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/un/algún) tema (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (oir/escuchar/poner))
+RecommendSong (sugiere/sugiéreme/sugiérenos/recomienda/recomiéndame/recomiéndanos) (/una/alguna) canción (de (/estilo/tipo/género)) {MusicVideoGenre} (/(que/para) (oir/escuchar/poner))
+
+WhatNewAlbums (/si) (hay/tienes/tengo/tenemos) (/un/algún) nuevo (album/disco/C.D.) (/(que/para) (oir/escuchar/poner))
+WhatNewAlbums (/si) (hay/tienes/tengo/tenemos) (/un/algún) (album/disco/C.D.) nuevo (/(que/para) (oir/escuchar/poner))
+WhatNewAlbums (/si) (hay/tienes/tengo/tenemos) (/unos/algunos) nuevos (albums/discos/C.D.) (/(que/para) (oir/escuchar/poner))
+WhatNewAlbums (/si) (hay/tienes/tengo/tenemos) (/unos/algunos) (albums/discos/C.D.) nuevos (/(que/para) (oir/escuchar/poner))
+WhatNewAlbums (/si) (hay/tienes/tengo/tenemos) (/un/algún) nuevo (album/disco/C.D.) (de (/estilo/tipo/género) {MusicGenre}) (/(que/para) (oir/escuchar/poner))
+WhatNewAlbums (/si) (hay/tienes/tengo/tenemos) (/un/algún) (album/disco/C.D.) nuevo (de (/estilo/tipo/género) {MusicGenre}) (/(que/para) (oir/escuchar/poner))
+WhatNewAlbums (/si) (hay/tienes/tengo/tenemos) (/unos/algunos) nuevos (albums/discos/C.D.) (de (/estilo/tipo/género) {MusicGenre}) (/(que/para) (oir/escuchar/poner))
+WhatNewAlbums (/si) (hay/tienes/tengo/tenemos) (/unos/algunos) (albums/discos/C.D.) nuevos (de (/estilo/tipo/género) {MusicGenre}) (/(que/para) (oir/escuchar/poner))
+WhatNewAlbums que nuevo (album/disco/C.D.) (hay/tienes/tengo/tenemos) ((/(que/para) (oir/escuchar/poner))
+WhatNewAlbums que (album/disco/C.D.) (hay/tienes/tengo/tenemos) nuevo ((/(que/para) (oir/escuchar/poner))
+WhatNewAlbums que nuevos (albums/discos/C.D.) (hay/tienes/tengo/tenemos) ((/(que/para) (oir/escuchar/poner))
+WhatNewAlbums que (albums/discos/C.D.) nuevos (hay/tienes/tengo/tenemos) ((/(que/para) (oir/escuchar/poner))
+WhatNewAlbums que nuevo (album/disco/C.D.) (hay/tienes/tengo/tenemos) (de (/estilo/tipo/género) {MusicGenre}) ((/(que/para) (oir/escuchar/poner))
+WhatNewAlbums que (album/disco/C.D.) (hay/tienes/tengo/tenemos) nuevo (de (/estilo/tipo/género) {MusicGenre}) ((/(que/para) (oir/escuchar/poner))
+WhatNewAlbums que nuevos (albums/discos/C.D.) (hay/tienes/tengo/tenemos) (de (/estilo/tipo/género) {MusicGenre}) ((/(que/para) (oir/escuchar/poner))
+WhatNewAlbums que (albums/discos/C.D.) nuevos (hay/tienes/tengo/tenemos) (de (/estilo/tipo/género) {MusicGenre}) ((/(que/para) (oir/escuchar/poner))
+WhatNewMovies (/si) (hay/tienes/tengo/tenemos) (/una/alguna) nueva (peli/película) (/(que/para) (ver/poner))
+WhatNewMovies (/si) (hay/tienes/tengo/tenemos) (/una/alguna) (peli/película) nueva (/(que/para) (ver/poner))
+WhatNewMovies (/si) (hay/tienes/tengo/tenemos) (/unas/algunas) nuevas (pelis/películas) (/(que/para) (ver/poner))
+WhatNewMovies (/si) (hay/tienes/tengo/tenemos) (/unas/algunas) (pelis/películas) nuevas (/(que/para) (ver/poner))
+WhatNewMovies que nueva (peli/película) (hay/tienes/tengo/tenemos) ((/(que/para) (ver/poner))
+WhatNewMovies que (peli/película) nueva (hay/tienes/tengo/tenemos) ((/(que/para) (ver/poner))
+WhatNewMovies que nuevas (pelis/películas) (hay/tienes/tengo/tenemos) ((/(que/para) (ver/poner))
+WhatNewMovies que (pelis/películas) nuevas (hay/tienes/tengo/tenemos) ((/(que/para) (ver/poner))
+WhatNewMovies (/si) (hay/tienes/tengo/tenemos) (/una/alguna) nueva (peli/película) (de (/estilo/tipo/género) {MovieGenre}) (/(que/para) (ver/poner))
+WhatNewMovies (/si) (hay/tienes/tengo/tenemos) (/una/alguna) (peli/película) nueva (de (/estilo/tipo/género) {MovieGenre}) (/(que/para) (ver/poner))
+WhatNewMovies (/si) (hay/tienes/tengo/tenemos) (/unas/algunas) nuevas (pelis/películas) (de (/estilo/tipo/género) {MovieGenre}) (/(que/para) (ver/poner))
+WhatNewMovies (/si) (hay/tienes/tengo/tenemos) (/unas/algunas) (pelis/películas) nuevas (de (/estilo/tipo/género) {MovieGenre}) (/(que/para) (ver/poner))
+WhatNewMovies que nueva (peli/película) (hay/tienes/tengo/tenemos) (de (/estilo/tipo/género) {MovieGenre}) (/(que/para) (ver/poner))
+WhatNewMovies que (peli/película) nueva (hay/tienes/tengo/tenemos) (de (/estilo/tipo/género) {MovieGenre}) (/(que/para) (ver/poner))
+WhatNewMovies que nuevas (pelis/películas) (hay/tienes/tengo/tenemos) (de (/estilo/tipo/género) {MovieGenre}) (/(que/para) (ver/poner))
+WhatNewMovies que (pelis/películas) nuevas (hay/tienes/tengo/tenemos) (de (/estilo/tipo/género) {MovieGenre}) (/(que/para) (ver/poner))
+WhatNewShows (/si) (hay/tienes/tengo/tenemos) (/una/alguna) nueva serie (/de televisión) (/(que/para) (ver/poner))
+WhatNewShows (/si) (hay/tienes/tengo/tenemos) (/una/alguna) serie nueva (/de televisión) (de (/estilo/tipo/género) {ShowGenre}) (/(que/para) (ver/poner))
+WhatNewShows (/si) (hay/tienes/tengo/tenemos) (/una/alguna) nueva serie (/de televisión) (de (/estilo/tipo/género) {ShowGenre}) (/(que/para) (ver/poner))
+WhatNewShows que (nueva serie/nuevas series) (hay/tienes/tengo/tenemos) (/(que/para) (ver/poner))
+WhatNewShows que (serie nueva/series nuevas) (hay/tienes/tengo/tenemos) (/(que/para) (ver/poner))
+WhatNewShows que (nueva serie/nuevas series) (hay/tienes/tengo/tenemos) (de (/estilo/tipo/género) {ShowGenre}) (/(que/para) (ver/poner))
+WhatNewShows que (serie nueva/series nuevas) (hay/tienes/tengo/tenemos) (de (/estilo/tipo/género) {ShowGenre}) (/(que/para) (ver/poner))
+WhatNewEpisodes (/si) (hay/tienes/tengo/tenemos) (/un/algún) nuevo (episodio/capítulo) de (/la serie) {Show}
+WhatNewEpisodes (/si) (hay/tienes/tengo/tenemos) (/un/algún) (episodio/capítulo) nuevo de (/la serie) {Show}
+WhatNewEpisodes (/si) (hay/tienes/tengo/tenemos) (/unos/algunos) nuevos (episodios/capítulos) de (/la serie) {Show}
+WhatNewEpisodes (/si) (hay/tienes/tengo/tenemos) (/unos/algunos) (episodios/capítulos) nuevos de (/la serie) {Show}
+
+PartyMode (escuchar/reproducir/tocar) música (/aleatoria/al azar/qualquiera)
+
+CurrentPlayItemInquiry (que/quien) es (esto/lo que suena/lo que se ve)
+CurrentPlayItemInquiry (que/quien) está tocando (/ahora)
+CurrentPlayItemInquiry (que/quien) se está (escuchando/reproduciendo)
+CurrentPlayItemTimeRemaining cuanto (/tiempo) (/le) queda (/a esto)
+CurrentPlayItemTimeRemaining cuando (/se) (acaba/termina) (/esto)
+CurrentPlayItemTimeRemaining que le queda (/a esto)
+CurrentPlayItemTimeRemaining cuanto (/tiempo) dura (/esto)
+
+Hibernate hiberna (/el) (sistema/equipo)
+Reboot reinicia (/el) (sistema/equipo)
+Shutdown apaga (/el) (sistema/equipo)
+Suspend suspende (/el) (sistema/equipo)
+Suspend pon el (sistema/equipo) en suspensión
+Suspend ponte a dormir
+
+EjectMedia expulsa (/el) (medio/disco/compact disc/blu-ray/c. d./d. v. d.)
+
+PlayerSeekForward (avanza/salta) (/adelante/hacia adelante) (/unos/por/durante) {ForwardDur}
+PlayerSeekSmallForward (avanza/salta) (/un) poco (/adelante/hacia adelante)
+PlayerSeekBigForward (avanza/salta) (mucho/bastante) (adelante/hacia adelante)
+PlayerSeekBackward (retrocede/rebobina) (/atrás/hacia atrás) (/unos/por/durante) {BackwardDur}
+PlayerSeekSmallBackward (retrocede/rebobina) (/un) poco (/atrás/hacia atrás)
+PlayerSeekBigBackward (retrocede/rebobina) (mucho/bastante) (/atrás/hacia atrás)
+
+AddonExecute (abre/lanza/ejecuta/corre) (/el) (/addon/add on/plugin/script/complemento/programa) {Addon}
+
+AddonGlobalSearch (ancuentra/busca) (/la serie) {Show}
+AddonGlobalSearch (encuentra/busca) (/la peli/la película) {Movie}
+AddonGlobalSearch (encuentra/busca) (/el album/el disco) {Album}
+AddonGlobalSearch (encuentra/busca) (/a) {Artist}
+
+AMAZON.HelpIntent que (te puedo pregunta/puedes hacer)
+AMAZON.HelpIntent que (/cosas) puedo probar
